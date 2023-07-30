@@ -1,0 +1,125 @@
+<html>
+<head>
+<style>
+    body{
+        background-image: url(images/night.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: yellow;
+        padding-bottom: 3px;
+        background-clip:padding-box;
+        
+        
+    
+    }
+    form{
+       border: 2px;
+        
+        background-color:brown;
+        background-repeat: no-repeat;
+        background-clip:padding-box;
+        margin: 0 auto;
+        width:50%;
+        height: 50%;
+        width;align-content:center;
+        
+    }
+    h1{
+        
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        text-decoration-color: aliceblue;
+        
+    }
+    button{
+  background-color:yellow;
+  padding-left: 60%;
+        padding-right:70%;
+        padding-bottom: 2px;
+ 
+}
+    
+    input[type=submit]{
+        background-color: green;
+    } 
+     input[type=reset]{
+        background-color: red;
+         padding-bottom: 2px;
+    } 
+   </style>
+</head>
+<body>
+   
+<form method="post" action="new.php">
+<table>
+    <tr>
+        
+        <td colspan="3"><center><button>Sign Up</button></center></td>
+    </tr>
+<tr>
+<td>First Name:</td>
+    <td><input type="text" name="fn"></td>
+</tr>
+    <tr>
+<td>Last Name:</td>
+    <td><input type="text" name="fn"></td>
+</tr>
+     <tr>
+<td>Date Of Birth:</td>
+    <td><input type="date"name="db"></td>
+</tr>
+    <tr>
+<td>Mobile Number:</td>
+    <td><input type="tel" name="fn"></td>
+</tr>
+    <tr>
+<td>Gender:</td>
+    <td><input type="radio" name="gender" value="F">Female</td>
+     <td><input type="radio" name="gender" value="M">Male</td>
+</tr>
+     <tr>
+         <td>Country:</td>
+   <td><select name="Country">
+       <option value="s">Select the country</option>
+        <option value="sl">Sri Lanka</option>
+        <option value="j">Japan</option>
+        <option value="sk">Soth Korea</option>
+       
+       </select></td>
+         
+    <tr>
+<td>Email:</td>
+    <td><input type="email" name="em"></td>
+</tr>
+         <tr>
+<td>Passward:</td>
+    <td><input type="passward" name="fn"></td>
+</tr>
+         
+ 
+    <tr>
+<td>Confirm Passward:</td>
+    <td><input type="passward" name="em"></td>
+</tr>       
+   <tr>
+        <h5><td><input type="radio" name="terms & conditions" > I agreed all the terms and conditions</td></h5>
+</tr>
+    <tr>
+   
+        <td><input type="submit" name="s" class="button" ></td>
+        <td><input type="reset" name="rs" class="button"></td>
+</tr>
+   
+</table>  
+</form>  
+</body>
+
+
+
+
+
+
+
+</html>
