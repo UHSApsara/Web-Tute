@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    
+    
+}
+body{
+    font-size: 50px;
+   
+}
+div{
+    columns: 2;
+    column-gap: 2em;
+    column-fill: auto;
+    height: 20em;
+}
+
